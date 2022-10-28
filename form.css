@@ -1,0 +1,34 @@
+.container {
+    border: solid 5px #000303;
+    height: 500px;
+    width: 30%;
+    background-color: #46a74a;
+    position: absolute;
+    
+    /* estilização do flex-container */
+}
+
+.container > * {
+   /* box-sizing: content-box;
+    border-style: solid;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    /* estilização de todos os flex-items */
+}
+
+#meu-item-especial {
+    
+    /* estilização de um flex-item específico */
+}
+
+.teste{
+    font-style: italic;
+}
+
+body{
+    background-image: linear-gradient(to right, #0c6e6e, #ffef0b);
+    display: flex;
+    justify-content: center;
+}
