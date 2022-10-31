@@ -1,8 +1,8 @@
 .container {
-    border: solid 5px #000303;
+    border: solid 5px #ffffff;
     height: 500px;
     width: 30%;
-    background-color: #46a74a;
+    background-image: linear-gradient(to right, #8cd4e0, #073535);
     position: absolute;
     
     /* estilização do flex-container */
@@ -18,17 +18,12 @@
     /* estilização de todos os flex-items */
 }
 
-#meu-item-especial {
-    
-    /* estilização de um flex-item específico */
-}
-
 .teste{
     font-style: italic;
 }
 
 body{
-    background-image: linear-gradient(to right, #0c6e6e, #ffef0b);
+    background-image: linear-gradient(to right, #073535, #8cd4e0);
     display: flex;
     justify-content: center;
 }
